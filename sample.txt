@@ -1,1 +1,5 @@
-dhan Platform 
+Retrieve all Students - @GetMapping(“/students”)
+Get details of specific student - @GetMapping(“/students/{id}”)
+Delete a student - @DeleteMapping(“/students/{id}”)
+Create a new student - @PostMapping(“/students”)
+Update student details - @PutMapping(“/students/{id}”)
